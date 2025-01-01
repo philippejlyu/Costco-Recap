@@ -87,7 +87,7 @@ def process_data():
     print(rotisserie_chicken['numPurchased'])
 
     sorted_items = sorted(items_purchased.items(), key=lambda x: x[1]['numPurchased'], reverse=True)
-    top_items = sorted_items[:30]
+    top_items = sorted_items[:10]
 
     print("Your top purchased items are: ")
     for item in top_items:
