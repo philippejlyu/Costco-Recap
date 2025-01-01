@@ -10,6 +10,9 @@ Note that this only gives us item numbers which is not very interesting
 
 # Getting item descriptions from item numbers
 In the future this will be done with selenium however at this time I am doing this manually.
+
 Whenever you click view receipt, another graphql file is created in the network inspector
+
 Save these files in the Receipts directory.
+
 You can do this for each receipt, however you should be able to get your top 10 items by sampling them instead.
